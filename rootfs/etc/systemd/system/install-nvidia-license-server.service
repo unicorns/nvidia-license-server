@@ -1,0 +1,12 @@
+[Unit]
+Description=Install Nvidia License Server
+
+[Service]
+ConditionPathExists=/install/install-nvidia-license-server.exp
+ExecStart=/install/install-nvidia-license-server.exp
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
+
+

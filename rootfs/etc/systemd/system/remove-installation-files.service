@@ -1,0 +1,11 @@
+[Unit]
+Description=Install Nvidia License Server
+After=install-nvidia-license-server.service
+
+[Service]
+ExecStart=/bin/rm -r /install
+
+[Install]
+WantedBy=multi-user.target
+
+
