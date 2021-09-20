@@ -5,7 +5,7 @@ RUN groupadd tomcat && \
     useradd -d /usr/share/tomcat -g tomcat -M -s /bin/false tomcat && \
     mkdir -p /usr/share/tomcat && \
     cd /tmp && \
-    wget https://muug.ca/mirror/apache-dist/tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.tar.gz && \
+    wget https://muug.ca/mirror/apache-dist/tomcat/tomcat-9/v9.0.53/bin/apache-tomcat-9.0.53.tar.gz && \
     tar xvf apache-tomcat-*.tar.gz -C /usr/share/tomcat --strip-components 1 && \
     rm apache-tomcat-*.tar.gz && \
     cd /usr/share/tomcat && \
