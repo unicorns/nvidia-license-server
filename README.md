@@ -1,6 +1,6 @@
 # Nvidia License Server
 
-> [!WARNING]  
+> [!IMPORTANT]  
 > The license server deployed via this repo is the legacy server. NVIDIA has [deprecated this server](https://docs.nvidia.com/vgpu/news/vgpu-software-license-server-eol-notice/index.html) in vGPU version 14 and later.
 > For newer vGPU versions, please use the new [NVIDIA License System (NLS)](https://docs.nvidia.com/license-system/latest/nvidia-license-system-user-guide/index.html#introduction-to-nvidia-license-system), which has
 > [cloud-hosted (CLS) and on-prem (DLS) deployment options](https://docs.nvidia.com/license-system/latest/nvidia-license-system-user-guide/index.html#about-service-instances). The on-prem option now
